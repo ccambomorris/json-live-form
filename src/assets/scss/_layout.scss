@@ -1,0 +1,17 @@
+@import './variables';
+@import './overrides/_layout_variables';
+
+header,
+footer,
+nav,
+main,
+prop {
+  border: 1px soild black;
+  padding: $padding;
+  margin: $margin;
+  border-radius: borderRadius;
+}
+
+header {
+  background-color: $backgroundColor;
+}
